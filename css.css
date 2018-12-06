@@ -5,7 +5,7 @@ header{height: 75px; background-color: #e5f0f2; position: fixed; width:100%; z-i
 left:0;}
 h1{color: gray; line-height: 75px;}
 .menu{ }
-.menu li{}
+.menu li{float:left;}
 .menu a{line-height: 75px; color: gray; padding: 0 15px; display: block;}
 
 body {
