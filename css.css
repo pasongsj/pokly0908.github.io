@@ -6,7 +6,7 @@ left:0;}
 h1{color: gray; line-height: 75px;float:left;}
 .menu{float:right;}
 .menu li{float:left;}
-.menu a{line-height: 75px; color: gray; padding: 0 15px; display: block;}
+.menu a{line-height: 75px; color: gray; padding: 0 15px; display: flex;}
 .wrapper{width: 1170px; margin:0 auto;}
 .clearfix{content: ''; display: block; clear: both;}
 
