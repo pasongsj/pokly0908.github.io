@@ -1,6 +1,12 @@
 /*
  * Globals
  */
+header{height: 75px; background-color: #e5f0f2; position: fixed; width:100%; z-index: 9999;top:0;
+left:0;}
+h1{color: gray; line-height: 75px;}
+.menu{ }
+.menu li{}
+.menu a{line-height: 75px; color: gray; padding: 0 15px; display: block;}
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
