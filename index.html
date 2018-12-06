@@ -40,4 +40,42 @@
       </div><!-- /.row -->
 
     </div><!-- /.container -->
+    <head>
+      <title>Your Website Title</title>
+        <!-- You can use Open Graph tags to customize link previews.
+        Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+      <meta property="og:url"           content="https://pokly0908.github.io/" />
+      <meta property="og:type"          content="website" />
+      <meta property="og:title"         content="Your Website Title" />
+      <meta property="og:description"   content="Your description" />
+      <meta property="og:image"         content="https://pokly0908.github.io/" />
+    </head>
+    <body>
+       매우 힘들군요.
+    </body>
+
+      <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your share button code -->
+
+      <div class="fb-share-button" data-href="https://pokly0908.github.io/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpokly0908.github.io%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">공유하기</a></div>
+
+    </body>
+
+    <!-- 네이버 공유하기 -->
+
+    <span>
+    	<script type="text/javascript" src="https://ssl.pstatic.net/share/js/naver_sharebutton.js"></script>
+    	<script type="text/javascript">
+    	new ShareNaver.makeButton({"type": "d"});
+    	</script>
+    </span>
 </html>
