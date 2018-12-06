@@ -4,9 +4,9 @@
 header{height: 75px; background-color: #e5f0f2; position: fixed; width:100%; z-index: 9999;top:0;
 left:0;}
 h1{color: gray; line-height: 75px;float:left;}
-.menu{float:right;}
+.menu{float:right; display:flex; justify-content: center; align-item: center;}
 .menu li{float:left;}
-.menu a{line-height: 75px; color: gray; padding: 0 15px; display: flex;}
+.menu a{line-height: 75px; color: gray; padding: 0 15px; display: block;}
 .wrapper{width: 1170px; margin:0 auto;}
 .clearfix{content: ''; display: block; clear: both;}
 
